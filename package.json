@@ -1,0 +1,50 @@
+{
+  "name": "Eiger-Express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "./",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbarben/eiger-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielbarben/eiger-express/issues"
+  },
+  "dependencies": {
+    "@ta-interaktiv/api-access": "^1.0.2",
+    "@ta-interaktiv/react-masthead": "^6.0.4",
+    "@ta-interaktiv/react-share-buttons": "^4.1.2",
+    "@ta-interaktiv/react-theme-switch": "^2.0.2",
+    "@ta-interaktiv/semantic-ui": "^3.2.0",
+    "@ta-interaktiv/types": "^0.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
+    "react-scripts": "3.0.1",
+    "swiper": "^6.3.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

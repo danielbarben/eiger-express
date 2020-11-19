@@ -1,0 +1,45 @@
+.text,.textweiss,.textbold,.textausz,.swipertext{
+  font-family:'IBM Plex Sans Condensed',"Helvetica",Arial,sans-serif;
+  font-size:1.1rem;
+}
+.text,.textbold{
+  fill:#1d1d1b
+}
+.textweiss {
+  fill:#ffffff
+}
+.textrot{
+  fill:#e4003a;
+}
+
+.textbold {
+  font-weight:600
+}
+
+  @media only screen and (min-width: 400px) {
+    .text,.textweiss,.textausz,.textbold {
+      font-size:0.8rem;
+    }
+  }
+    .station,.berg{fill:#1d1d1b;}
+    .wab,.jb,.jbtunnel,.lwm,.vbahn,.bob{fill:none;stroke-miterlimit:10;stroke-width:1.5;}
+    .wab{stroke:#009869}
+    .jb,.jbtunnel{stroke:#1b625b}
+    .jbtunnel{stroke-dasharray:3 2;}
+    .lwm{stroke:#717d85}
+    .vbahn{stroke:#e4003a}
+    .bob{stroke:#59358c}
+    .kilometer{stroke:#1d1d1b;stroke-width:2;}
+    .bobicon{fill:#59358c;}
+    .wabicon{fill:#009869;}
+    .jbicon{fill:#1b625b;}
+    .lwmicon{fill:#717d85;}
+
+    .mast{fill:none;stroke:#1d1d1b;stroke-miterlimit:10;stroke-width:1.5;}
+    .ministation{fill:#717d85;}
+    .raster1{stroke:#ffffff;stroke-width:0.5;}
+    .raster2{stroke:#ffffff;stroke-width:0.5;stroke-dasharray:3 2;}
+    .raster3{stroke:#ffffff;stroke-width:1;}
+
+    .weiss {fill:#FFFFFF}
+    .violett {fill:#59358c}

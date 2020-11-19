@@ -1,0 +1,23 @@
+.picto {
+  width: 30px;
+  height:30px;
+  margin-right:10px;
+}
+
+.cabin {
+  width: 80%;
+}
+
+.table {
+  display:flex;
+  justify-content:center;
+  flex-flow:column;
+  flex-wrap:nowrap;
+}
+
+.item {
+  display:flex;
+  text-align:left;
+  align-items:center;
+  margin: 10px 30px 10px 10px;
+}

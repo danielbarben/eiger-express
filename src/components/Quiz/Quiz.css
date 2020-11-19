@@ -1,0 +1,139 @@
+.btnbar {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 0 0 4px 0;
+}
+
+.btnactive,
+.btnpassive,
+.btnright,
+.btnwrong {
+	color: #ffffff;
+	width: 30%;
+	max-width: 220px;
+	margin: 2px;
+	text-decoration: none;
+	height: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'IBM Plex Sans', "Helvetica", Arial, sans-serif;
+	font-size: 1.7rem;
+}
+
+.btnactive {
+	cursor: pointer;
+	background: #1d1d1b;
+}
+
+.btnpassive {
+	background: #717d85;
+}
+
+.btnright {
+	background: #009869;
+}
+
+.btnwrong {
+	background: #e4003a;
+}
+
+.question {
+	text-align: right;
+}
+
+.station,
+.berg {
+	fill: #1d1d1b;
+}
+
+.wab,
+.jb,
+.jbtunnel,
+.lwm,
+.vbahn,
+.bob {
+	fill: none;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5;
+}
+
+.wab {
+	stroke: #009869
+}
+
+.jb,
+.jbtunnel {
+	stroke: #1b625b
+}
+
+.jbtunnel {
+	stroke-dasharray: 3 2;
+}
+
+.lwm {
+	stroke: #717d85
+}
+
+.vbahn {
+	stroke: #e4003a
+}
+
+.bob {
+	stroke: #59358c
+}
+
+.kilometer {
+	stroke: #1d1d1b;
+	stroke-width: 2;
+}
+
+.bobicon {
+	fill: #59358c;
+}
+
+.wabicon {
+	fill: #009869;
+}
+
+.jbicon {
+	fill: #1b625b;
+}
+
+.lwmicon {
+	fill: #717d85;
+}
+
+.mast {
+	fill: none;
+	stroke: #1d1d1b;
+	stroke-miterlimit: 10;
+	stroke-width: 1.5;
+}
+
+.ministation {
+	fill: #717d85;
+}
+
+.raster1 {
+	stroke: #ffffff;
+	stroke-width: 0.5;
+}
+
+.raster2 {
+	stroke: #ffffff;
+	stroke-width: 0.5;
+	stroke-dasharray: 3 2;
+}
+
+.raster3 {
+	stroke: #ffffff;
+	stroke-width: 1;
+}
+
+.red {
+	background: #e4003a
+}
+
+;

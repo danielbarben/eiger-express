@@ -1,0 +1,59 @@
+.App {
+  background:#b2d7ec;
+}
+
+html {
+font-size:62.5%;
+}
+
+@media only screen and (min-width: 400px) {
+  html {
+    font-size:80%;
+  }
+}
+
+.title h1 {
+  font-family: 'Source Serif Pro','Times New Roman',serif;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 6rem;
+  margin: 0 0 4rem 0;
+  padding: 0;
+
+}
+
+.title h2 {
+font-family: 'IBM Plex Sans', "Helvetica",Arial,sans-serif;
+font-weight:400;
+font-size: 2rem;
+line-height: 2.9rem;
+margin: 0 0 2rem 0;  
+}
+
+.element h1 {
+font-family: "Noto Serif","Times New Roman",serif;
+font-weight:700;
+font-size: 1.7rem;
+line-height: 2.8rem;
+text-align:left;
+}
+
+.element p, .element p.solution {
+font-family: "Noto Serif","Times New Roman",serif;
+font-weight:400;
+font-size: 1.7rem;
+line-height: 2.6rem;
+text-align:left;
+}
+
+.element p.solution {
+  margin-bottom:50px;
+  }
+
+.element {
+  margin-bottom:60px;
+}
+
+.element b {
+  font-weight:700;
+}
