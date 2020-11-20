@@ -48,6 +48,7 @@ text-align:left;
 
 .element p.solution {
   margin-bottom:50px;
+  font-weight:700;
   }
 
 .element {
@@ -57,3 +58,35 @@ text-align:left;
 .element b {
   font-weight:700;
 }
+
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  }
+  @keyframes fadeIn {
+  0% {color:#CCCCCC;}
+  100% {color:#000000;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {color:#CCCCCC;}
+    100% {color:#000000;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {color:#CCCCCC;}
+    100% {color:#000000;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {color:#CCCCCC;}
+    100% {color:#000000;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {color:#CCCCCC;}
+    100% {color:#000000;}
+  }

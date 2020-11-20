@@ -51,7 +51,7 @@ class Quiz extends Component {
 			})
 		 
 			//return question, buttons and solution			
-			return <div key={index}><p>{item.question}</p><div className='btnbar'>{buttons}</div><p className='solution'>{this.state.buttonData['group'+index].solution}</p></div>
+			return <div key={index}><p>{item.question}</p><div className='btnbar'>{buttons}</div><p className={this.state.buttonData['group'+index].solution === '' ? 'solution' : 'solution fade-in'}>{this.state.buttonData['group'+index].solution}</p></div>
 		})
 
 		return (
