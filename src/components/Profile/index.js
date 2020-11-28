@@ -5,7 +5,7 @@ class Profile extends Component {
     return (
       <div className='element'>
         <h1>Über sieben Masten</h1>
-        <p>Die Fahrt im Eiger-Express dauert 15 Minuten. Dabei werden 1’385 Höhenmeter überwunden und 6’483 Meter zurückgelegt.</p>
+        <p>Die Fahrt im Eiger Express dauert 15 Minuten. Dabei werden 1385 Höhenmeter überwunden und 6483 Meter zurückgelegt.</p>
         <svg viewBox='0 0 265 196'>
     <g id='Masten'>
       <line className='bob' id='nr1' x1='33' y1='155' x2='33' y2='149'/>
@@ -26,9 +26,9 @@ class Profile extends Component {
 			<text className='text' textAnchor='middle' transform='translate(71 105)'><tspan className='text textbold'>Mast 2</tspan><tspan x='0' dy='1em' className='text'>55 m</tspan></text>
 			<text className='text' textAnchor='middle' transform='translate(102 91)'><tspan className='text textbold'>Mast 3</tspan><tspan x='0' dy='1em'>50 m</tspan></text>
 			<text className='text' textAnchor='middle' transform='translate(137 74)'><tspan className='text textbold'>Mast 4</tspan><tspan x='0' dy='1em'>62 m</tspan></text>
-			<text className='text' textAnchor='end' transform='translate(184 55)'><tspan className='text textbold'>Mast 5</tspan><tspan x='0' dy='1em'>60 m</tspan></text>
-			<text className='text' textAnchor='middle' transform='translate(200 34)'><tspan className='text textbold'>Mast 6</tspan><tspan x='0' dy='1em'>20,5</tspan></text>
-			<text className='text' textAnchor='middle' transform='translate(235 25)'><tspan className='text textbold'>Mast 7</tspan><tspan x='0' dy='1em'>29,5</tspan></text>
+			<text className='text' textAnchor='end' transform='translate(184 53)'><tspan className='text textbold'>Mast 5</tspan><tspan x='0' dy='1em'>60 m</tspan></text>
+			<text className='text' textAnchor='middle' transform='translate(204 37)'><tspan className='text textbold'>Mast 6</tspan><tspan x='0' dy='1em'>20,5</tspan></text>
+			<text className='text' textAnchor='middle' transform='translate(233 25)'><tspan className='text textbold'>Mast 7</tspan><tspan x='0' dy='1em'>29,5</tspan></text>
 		</g>
 
 		<g id='Ministationen'>
@@ -63,7 +63,7 @@ class Profile extends Component {
  </g>
 
 		<g id='Höhe_Zahlen' data-name='Höhenmeter Zahlen'>
-			<text className='textweiss' textAnchor='end' transform='translate(260 79)'>2000<tspan x='0' dy='1em'>m.ü. M.</tspan></text>
+			<text className='textweiss' textAnchor='end' transform='translate(260 79)'>2000<tspan x='0' dy='1em'>m ü. M.</tspan></text>
 			<text className='textweiss' textAnchor='end' transform='translate(260 123)'>1500</text>
 			<text className='textweiss' textAnchor='end' transform='translate(260 167)'>1000</text>
 		</g>

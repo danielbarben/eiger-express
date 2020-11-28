@@ -19,10 +19,10 @@ class Speed extends Component {
           </g>
           <g>
             <text className="text" transform="translate(50 96)">Männlichenbahn, 2019</text>
-            <text className="text" transform="translate(50 134)">Männlichebahn, 1978</text>
+            <text className="text" transform="translate(50 134)">Männlichenbahn, 1978</text>
           </g>
           <g>
-            <text className="text" textAnchor="middle" transform="translate(130 30)">Der Eiger-Express
+            <text className="text" textAnchor="middle" transform="translate(130 30)">Der Eiger Express
             <tspan x="0" y="0" dy="1.2em">ist mit <tspan className="textbold">8 m/s</tspan> (28,8 km/h)</tspan>
             <tspan x="0" y="0" dy="2.4em">der schnellste seiner Art*.</tspan>
             </text>

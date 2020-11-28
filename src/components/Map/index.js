@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Map.css';
+import Locator from "./locator.js"
 
 class Map extends Component {
 
@@ -7,7 +8,8 @@ class Map extends Component {
     return (
       <div className='element'>
         <h1>Eine Abkürzung auf das Jungfraujoch</h1>
-        <p>Mit dem Eiger-Express halbiert sich die Fahrzeit von Grindelwald über den Eigergletscher aufs Jungfraujoch auf 45 Minuten.<br/><br/></p>
+        <p>Mit dem Eiger Express halbiert sich die Fahrzeit von Grindelwald über den Eigergletscher aufs Jungfraujoch auf 45 Minuten.<br/><br/></p>
+				<Locator />
 
 <svg viewBox='0 0 260 235'>
 
@@ -43,7 +45,7 @@ class Map extends Component {
 				<text className='text textbold' textAnchor='middle' transform='translate(216 40)'>Terminal</text>
 				<text className='text' transform='translate(110 83)'>Männlichen</text>
 				<text className='text' textAnchor='middle' transform='translate(160 154)'>Eigergletscher</text>
-        <text className='textrot textbold' transform='translate(190 110)'>Eiger-<tspan x='0' dy='1em'>Express</tspan></text>
+        <text className='textrot textbold' transform='translate(190 110)'>Eiger<tspan x='0' dy='1em'>Express</tspan></text>
         <text className='textrot textbold' transform='translate(120 45)'>Männlichen-<tspan x='0' dy='1em'>bahn</tspan></text>
 		</g>
 		<g id='Legende' transform='translate(-5 20)'>

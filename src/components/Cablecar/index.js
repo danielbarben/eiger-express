@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import ReactGA from 'react-ga';
 import './Cablecar.css';
 import Gondel from '../../img/cablecar.png'
 
@@ -14,7 +13,7 @@ class Game extends Component {
   render() {
     return (
       <div className='cablecar'>
-        <img id='slide' src={Gondel} alt='Kabine Eiger-Express'/>
+        <img id='slide' src={Gondel} alt='Kabine Eiger Express'/>
       </div>
     );
     }

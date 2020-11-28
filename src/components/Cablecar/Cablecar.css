@@ -19,9 +19,9 @@
 	height: auto;
 	background: transparent;
 	-webkit-animation: slide 0.5s forwards;
-	-webkit-animation-delay: 2s;
+	-webkit-animation-delay: 1s;
 	animation: slide 5s forwards;
-	animation-delay: 2s;
+	animation-delay: 1s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
